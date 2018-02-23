@@ -1,0 +1,43 @@
+<%@ page import="java.util.*"%>
+<table class="Casebleu"
+	style="border: 0px; margin: 0; padding: 0px; width: 800;">
+	<tr>
+		<td>
+			<H1 style="font-size: 42px;">Mon compte Citoyen</H1>
+		<td>
+	</tr>
+	<tr>
+		<td>
+			<table class="Casebleu" style="border: 0px; margin: 0; padding: 0px;">
+				<tr>
+					<td>
+						<button name="deposer" type="button"
+							onClick="self.location.href='deposerUneDemande.jsp'"
+							style="width: 150px">Déposer une demande</button>
+					</td>
+					<td>
+						<button name="suivre" type="button"
+							onClick="self.location.href='suivreMesDemandes.jsp'"
+							style="width: 150px">Suivre mes demandes</button>
+					</td>
+					<td>
+						<button name="lister" type="button"
+							onClick="self.location.href='monPorteDocuments.jsp'"
+							style="width: 150px">Mon porte documents</button>
+					</td>
+					<td>
+						<button name="info" type="button"
+							onClick="self.location.href='mesInformationsPersonnelles.jsp'"
+							style="width: 200px">Mes informations personnelles</button>
+					</td>
+					<td>
+						<button name="choix"
+							onClick="self.location.href='deconnection.jsp'" type="button"
+							style="width: 100px">Se déconnecter</button>
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>
+

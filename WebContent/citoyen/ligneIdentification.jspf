@@ -1,0 +1,11 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<table  width="800" border="1" class="Casebleu1" >  
+<tr> <td>
+ <h2> Demandeur ou service :  nom : <%= nom %>  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; identifiant:  <%= identifiant %> </h2>
+ </td>
+ <td>
+  <h2> Date :  <%= dateDemande %> </h2>
+</td>
+</tr>
+</table>

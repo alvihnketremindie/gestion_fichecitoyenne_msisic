@@ -1,0 +1,24 @@
+<%@ page import="java.util.*"%>
+<table class="Casebleu"
+	style="border: 0px; margin: 0; padding: 0px; width: 800;">
+	<tr>
+		<td>
+			<H1 style="font-size: 42px;">Gestion des fiches citoyennes</H1>
+		<td>
+	</tr>
+	<tr>
+		<td colspan="3">
+			<table class="Casebleu4"
+				style="border: 0px; margin: 0; padding: 0px;">
+				<!--    en tête pour l'administrateur -->
+				<tr>
+					<td>
+						<button name="choix"
+							onClick="self.location.href='deconnection.jsp'" type="button"
+							style="width: 100px">Se déconnecter</button>
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>
